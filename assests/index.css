@@ -30,6 +30,7 @@ padding-top:4px;
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
     color: #fff;
     background-color: #5f35e7;
+    border-radius : 2px;
 }
 .col-sm-4{
   padding: 0px;
