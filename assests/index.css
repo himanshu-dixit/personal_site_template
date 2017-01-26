@@ -147,11 +147,8 @@ html,body{
   width:100%;
   margin-top: 30px;
   text-align: center;
-  background-color: #1d1f2a;
-  height:200px;
-  border-top: 4px;
-  border-top-style: solid;
-  border-color: #5321f6;
+  background-color: #2c374e;
+  height:200px
 }
 
 .footer_quote{
@@ -235,7 +232,7 @@ a:hover {
   margin-top: -29px !important;
 }
 .menu{
-  margin-left: 40px;
+  margin-left: 20%;
 }
 .margin-right{
   margin-top: -5px;
