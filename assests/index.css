@@ -15,8 +15,8 @@ html,body{
   }
 }
 .navbar-default {
-  background-color: #fff;
-  border-color: #fff;
+  background: rgba(0,0,0,0);
+  border: none;
   font-size:15px;
 }
 #navbar_right{
@@ -30,7 +30,7 @@ html,body{
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
   color: #fff;
-  background-color: #4885ff;
+  background-color: #494f5a;
   border-radius : 3px;
 }
 .col-sm-4{
@@ -60,12 +60,14 @@ html,body{
   padding-top: 9px;
 }
 .quote_bar{
-  margin : 15px 0px 16px 0px;
+  margin : 0px 0px 16px 0px;
   height: 53px;
-  background-color:#3e485d;
-  border-radius: 3px;
+  background-color:#494f5a;
   color:#fff;
   padding: 18px 0px 23px 0px;
+  box-shadow: 0px 16px 12px -11px rgba(0,0,0,0.21);
+  -moz-box-shadow: 0px 16px 12px -11px rgba(0,0,0,0.21);
+  -webkit-box-shadow: 0px 16px 12px -11px rgba(0,0,0,0.21);
 }
 .heading{
   color:#5f5f5f;
@@ -194,12 +196,12 @@ html,body{
   cursor:pointer;
 }
 .top_icon {
-  color: #5c5c67;
+  color: #f5f5f5;
   cursor:pointer;
   font-size: 24px;
 }
 .top_icon:hover{
-  color: #4885ff;
+  color: #494f5a;
 }
 #image_author {
   border-radius: 2px;
@@ -213,8 +215,9 @@ html,body{
   background-position: center;
 }
 .headline_font {
-  font-size: 19px;
   color: rgb(255, 255, 255);
+  font-size: 19px;
+  font-weight: 700;
 }
 
 a {
@@ -222,8 +225,7 @@ a {
 }
 
 a:hover {
-  color: #676768;
-  color: #3A62EF;
+  color: #494f5a;
   text-decoration: none;
 }
 .navbar-name {
@@ -238,4 +240,10 @@ a:hover {
 }
 .margin-right{
   margin-top: -5px;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #FFF;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #FFF;
 }
