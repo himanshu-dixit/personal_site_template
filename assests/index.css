@@ -250,5 +250,59 @@ a:hover {
   background: #eaeaea;
   color: #fff;
   padding: 20px 0 60px 0;
-  height: 900px;
+}
+
+.material_card{
+  position: relative;
+  margin: .5rem 0 1rem 0;
+  background-color: #fff;
+  transition: box-shadow .25s;
+  border-radius: 3px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+.blog_card{
+  height: 535px;
+  width: 98%;
+  margin: 17px auto;
+  border-radius: 13px;
+  color: black;
+}
+
+.card_image{
+  border-radius: 10px 8px 0px 0px;
+  height: 270px;
+  overflow: hidden;
+}
+
+.card_title{
+  text-align: center;
+  margin-top: 21px;
+  font-size: 21px;
+  font-weight: 600;
+  color: #4e4e4e;
+}
+
+.card_description{
+  text-align: center;
+  color: #6a6a6a;
+  font-size: 16px;
+  max-width: 94%;
+  margin: 12px auto;
+}
+
+.read_button{
+  width: 200px;
+  height: 56px;
+  text-align: center;
+  margin: 21px auto;
+  background: #2f87ff;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 17px;
+  padding-top: 13px;
+}
+.read_button:hover{
+  background: #1d75ed;
+  cursor: pointer;
 }
