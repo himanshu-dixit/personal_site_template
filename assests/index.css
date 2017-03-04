@@ -265,14 +265,17 @@ a:hover {
   height: 535px;
   width: 98%;
   margin: 17px auto;
-  border-radius: 13px;
+  border-radius: 6px;
   color: black;
 }
 
 .card_image{
-  border-radius: 10px 8px 0px 0px;
+  border-radius: 6px 6px 0px 0px;
   height: 270px;
   overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .card_title{
