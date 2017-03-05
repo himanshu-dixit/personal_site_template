@@ -227,3 +227,14 @@ cursor:pointer;
   text-decoration: none;
   color: #333;
 }
+
+.panel-title{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.panel-body {
+  padding: 15px 87px;
+  font-size: 14px;
+}

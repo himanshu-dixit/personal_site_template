@@ -10,8 +10,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="assests/skill.css" />
-    <link rel="stylesheet" href="assests/index.css" />
+  <link rel="stylesheet" href="assests/index.css" />
 </head>
 <body>
 <div style="background: url('img/cover.jpg');background-size: cover; height: 520px;">
@@ -57,17 +56,20 @@
 
   <div class="slide col-md-12 " id="" style="display:flex;justify-content:center;">
 
-    <div style="position: relative;transform: translateY(-25%);top: 44%;text-align:center;">
-
-<div class="headline_font" style="margin-top:57px; font-size:40px;">My Skills</div>
-<div class="headline_font" style="margin-top:7px;font-size:14px;">This is what i love to do</div>
+    <div style="position: relative;
+transform: translateY(-25%);
+top: 44%;
+width: 169px;text-align:center;">
+<div id="image_author"></div>
+<div class="headline_font" style="margin-top:17px">Himanshu Dixit</div>
+<div class="headline_font" style="margin-top:7px;font-size:17px;">18, Student</div>
 </div>
   </div>
 
 
 </div>
 </div>
-
+</div>
 
 <div class="quote_bar">
   <center>
@@ -75,65 +77,3 @@
   "Most People Die at 25,And are not buried Till 75"</span>
 </center>
 </div>
-</div>
-<div class="container">
-
-<div class="row">
- 
-<div class="row" style="margin-top:20px;">
-  <div class="text">
-  </div>
-  <div class="row"><div class="col-md-6">
-  <div class="heading">Areas</div>
-  <div class="text" style="text-align:left;">Database,Frontend, UI/UX Designing,Algorithm are among my strongest skills. I have created many solid backend and frontend
-    application. Also i am giving some of my time to learn Data Science and Machine Learning.
-  </div>
-</div><div class="col-md-6">
-
-    <div class="heading">Tools</div>
-    <div class="text"  style="text-align:left;"><strong>OS&nbsp;&nbsp;&nbsp;</strong> Windows 10,Ubuntu 16.04 LTS(Development), Mac OS X El Capitan, CentOs (Server)<br>
-  <br>  <strong>IDE &nbsp;&nbsp;&nbsp; </strong>Eclipse,Visual Studio,Android Studio,Code Block<br><br>
-    <strong>Code Edtior &nbsp;&nbsp;&nbsp; </strong>Atom,Emacs,Vim,Monodevelop,Sublime Text<br><br>
-    <strong>Other &nbsp;&nbsp;&nbsp;  </strong>Unity,Unreal Engine,Git,Photoshop,Illustrator,After Effects<br><br>
-        <strong>Gadgets  &nbsp;&nbsp;&nbsp; </strong>Dell Xps 13 9350, Macbook Air, PC build.<br><br>
-    </div>
-
-  </div></div>
-</div>
-
-<div class="row">
-
-  <div class="row"><div class="col-md-6">
-  <div class="heading">Programming Language</div>
-  <div class="text"  style="text-align:left;">
-    <strong>Proficient  &nbsp;&nbsp;&nbsp; </strong>Javascript,PHP,SQL,Python,C++,HTML,CSS3,Shell Scripting<br><br>
-    <strong>Good &nbsp;&nbsp;&nbsp;  </strong>Node.js,C,Java<br><br>
-    <strong>Learning &nbsp;&nbsp;&nbsp;  </strong>R,Ruby,C#,Swift,Objective C,etc<br><br>
-
-  </div>
-</div><div class="col-md-6">
-
-  <div class="heading">Libraries and Framework</div>
-  <div class="text"  style="text-align:left;">
-    Although didn't have time to categorize them. But some of the libraries i have worked with are Jquery,Djano,Ruby On Rails,Selenium,Scrapy,Bootstrap,
-    Android SDK,Phonegap,Google Api,Double Click,Yotuube Dl,Web RTC,etc.
-    Currently i am also building Javacript Library that can detect Hand Gesture.(But Facing Problem On making it work on Firefox )
-
-  </div>
-  </div></div>
-
-</div>
-</div>
-
-
-
-</div>
-
-<div class="footer"><span class="footer_quote">"12 Hours,3 Cups Of Coffee & 3 Sleep Nap"</span><br><br><span class="footer_quote_text">was used to create this site
-  <br><br>
-  <i class="fa fa-heart" aria-hidden="true" style="color: #22afe4;margin: 5px;"></i>
-Made With Love
-  </span>
-</div>
-</body>
-</html>
