@@ -272,7 +272,7 @@ a:hover {
   color: black;
 }
 .tool_card{
-  height: 485px;
+  height: 350px;
   width: 98%;
   margin: 6px auto;
   border-radius: 6px;
@@ -288,6 +288,14 @@ a:hover {
   background-position: center;
 }
 
+.tool_image{
+  border-radius: 6px 6px 0px 0px;
+  height: 100px;
+  overflow: hidden;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .card_title{
   text-align: center;
   margin-top: 21px;
